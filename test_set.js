@@ -106,7 +106,7 @@
 
 // A: person.name = "Evan Bacon"
 // B: delete person.address 
-// C: person.address.street = "101 Main St"
+// C: person.address.street = "101 Main St" [*]
 // D: person.pet = { name: "Mara" }
 
 // // < --------------Question 8----------------->
@@ -114,7 +114,7 @@
 // const person = { name: 'Lydia Hallie' };
 
 // Object.seal(person);
-// A: person.name = "Evan Bacon" 
+// A: person.name = "Evan Bacon" [*]
 // B: person.age = 21
 // C: delete person.name
 // D: Object.assign(person, { age: 21 })
